@@ -1,0 +1,5 @@
+n = int(input('Digite um número: '))
+print('O antecessor deste número é {}'.format(n-1))
+print('O antecessor deste número é {}'.format(n+1))
+print('n({}) = x + 1 = {}'.format(n,n+1))
+print('n({}) = x - 1 = {}'.format(n,n-1))
