@@ -1,0 +1,10 @@
+import random
+sorteio = random.sample(range(1,5),4)
+n1 = input('Digite o nome do Aluno 1º ')
+n2 = input('Digite o nome do Aluno 2º ')
+n3 = input('Digite o nome do Aluno 3º ')
+n4 = input('Digite o nome do Aluno 4º ')
+print('O Aluno {} será o {}º a si apresentar'.format(n1,sorteio[0]))
+print('O Aluno {} será o {}º a si apresentar'.format(n2,sorteio[1]))
+print('O Aluno {} será o {}º a si apresentar'.format(n3,sorteio[2]))
+print('O Aluno {} será o {}º a si apresentar'.format(n4,sorteio[3]))
