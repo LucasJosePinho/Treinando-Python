@@ -1,0 +1,5 @@
+fs = input('Digite uma frase: ').lower()
+ac = fs.count('a')
+a1 = fs.find('a')
+au = fs.rfind('a')
+print('O numero de AAA será {} o primeiro esta na posição {} e o último na posição {}'.format(ac,a1,au))
