@@ -1,2 +1,2 @@
 # Estudo-de-Python
-PraticPando Python
+Praticando com Python
